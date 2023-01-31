@@ -1,0 +1,27 @@
+.landing {
+  z-index: 98;
+  position: absolute;
+  width: 100vw;
+  min-width: 755px;
+  min-height: 755px;
+  height: 100vh;
+  padding: 15%;
+  background-color: #EDF6F9;
+  color: #006D77;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+
+.landing button {
+  margin-top: 50px;
+  padding: 10px;
+  border: 2px solid #006D77;
+  border-radius: 16px;
+  font-size: 24px;
+}
+
+.landing button:hover {
+  background-color: #006D77;
+  color: #EDF6F9;
+}
+/*# sourceMappingURL=Landing.css.map */
