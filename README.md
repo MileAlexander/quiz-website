@@ -1,2 +1,2 @@
 # quiz-website
-My first quiz website for learning purpose.
+My first quiz website for learning purposes.
