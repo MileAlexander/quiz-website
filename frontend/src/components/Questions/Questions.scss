@@ -1,0 +1,124 @@
+.quiz-box{
+  position: absolute;
+  width: 700px;
+  height: 550px;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  .quiz-card{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-color: #83C5BE;
+    color:#006D77;
+    border-radius: 16px;
+    box-shadow: 0 2px 9px 0 rgba(175, 181, 198, 0.4);
+    h1{
+      top: 0;
+      padding: 20px;
+      margin: auto;
+      width: 600px;
+      height: 300px;
+    }
+    p{
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 50px;
+      background-color: #006D77;
+      color: #83C5BE;
+    }
+    .unblock{
+      z-index: -100;
+      position: absolute;
+      width: 700px;
+      height: 200px;
+      margin: auto;
+    }
+    .block{
+      z-index: 100;
+      position: absolute;
+      width: 700px;
+      height: 200px;
+      margin: auto;
+    }
+    section{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      width: 580px;
+      margin: auto;
+      .answer{
+        button{
+          width: 280px;
+          height: 90px;
+          padding: 10px;
+          border: 5px solid #006D77;
+          background-color: #006D77;
+          color: #83C5BE;
+          border-radius: 40px;
+          box-shadow: 0 2px 9px 0 rgba(175, 181, 198, 0.4);
+        }
+        button:hover{
+          background-color: #83C5BE;
+          color: #006D77;
+        }
+        .correct{
+          border-color: rgb(12, 119, 12);
+        }
+        .incorrect{
+          border-color: rgb(138, 4, 4);
+        }
+      }
+    }
+    h3{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    h4{
+      position: absolute;
+      width: 136px;
+      bottom: 0;
+      right: 0;
+      padding: 10px;
+      font-size: 12px;
+      text-align: left;
+    }
+  }
+  .result{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  padding-bottom: 50px;
+  transform: translate(-50%, -50%);
+  color:#006D77;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  }
+  .back-btn{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 150px;
+    margin: auto;
+    border: 2px solid #006D77;
+    border-radius: 16px;
+    transform: translate(-50%, -65%);
+    color:#006D77;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .back-btn:hover{
+    background-color: #006D77;
+    color: #EDF6F9;  
+  }
+}
